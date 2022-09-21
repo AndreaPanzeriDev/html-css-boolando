@@ -64,8 +64,22 @@ section{
     position: relative;
 }
 
-.container img{
+/*IMMAGINI*/
+.img{
     width: 100%;
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+
+.container:hover .img1{
+    display: none;
+}
+
+.container:hover .img2{
+    display: block;
 }
 
 .sconti{
