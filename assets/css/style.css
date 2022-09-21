@@ -61,9 +61,27 @@ section{
 .container{
     width: calc( 100% / 3 );
     padding: 1%;
+    position: relative;
 }
 
 .container img{
     width: 100%;
+}
+
+.sconti{
+    position: absolute;
+    bottom: 10%;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    padding: 2px;
 }
 
