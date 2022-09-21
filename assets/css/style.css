@@ -5,9 +5,11 @@
 }
 
 
+/*HEADER*/
 
 header{
     background-color: orange;
+    width: 100%;
 }
 
 .nav{
@@ -42,3 +44,26 @@ a:hover{
 i{
     color: white;
 }
+
+
+
+/*MAIN*/
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    display: flex;
+}
+
+.container{
+    width: calc( 100% / 3 );
+    padding: 1%;
+}
+
+.container img{
+    width: 100%;
+}
+
