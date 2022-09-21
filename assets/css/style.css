@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: orange;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.image{
+    align-items: center;
+}
+
+.image img{
+    height: 50px;;
+}
+
+.spacing{
+    margin-left: 10px;
+}
+
+i{
+    color: white;
+}
