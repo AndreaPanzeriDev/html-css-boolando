@@ -23,6 +23,7 @@ header{
 a{
     text-decoration: none;
     color: white;
+    margin-right: 10px;
 }
 
 a:hover{
@@ -82,6 +83,19 @@ section{
     display: block;
 }
 
+.heart{
+    position: absolute;
+    top: 7%;
+    right: 7%;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: white;
+}
+
+.black{
+    color:black
+}
+
 .sconti{
     position: absolute;
     bottom: 20%;
@@ -117,4 +131,36 @@ section{
 .old-price{
     text-decoration: line-through;
     color: rgb(151, 151, 151);
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: black;
+    color: white;
+    height: auto;
+    margin-top: 25px;
+    width: 100%;
+    
+}
+
+.footer-settings{
+    width: 80%;
+    margin: auto;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#azienda{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#social{
+    font-weight: bold;
+}
+
+.fa-brands{
+    font-size: 27px;
 }
